@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image:url(img/portfolio.jpg);
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar ul a{
+    font-size:17px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    text-align: center;
+    display: block;
+}
+.navbar ul li{
+ display: inline-block;
+}
+
+.navbar a:hover{
+    border: 1px solid pink;
+    color: black;
+    background-color: pink;
+}
+
+button{
+   font-size: 15px;
+   padding: 20px;
+   float: right;
+   margin: 20px;
+   background-color: pink;
+   color:white;
+   border-radius: 25px;
+   border-color: white;
+}
+.button1{
+    background-color: black;
+    float: left;
+    color: pink;
+    border: 2px solid pink;
+}
+.button1:hover{
+    background-color:pink; 
+        color: white;
+    border: white;
+    }
+
+button:hover{
+   background-color: black; 
+   color: pink;
+}
+
+.logo{
+    font-size: 40px;
+    float: left;
+    color: white;
+}
+.text{
+    float: left;
+    text-align: justify;
+    color: white;
+}
+
+ i{
+    color: white;
+    padding: 20px;
+    border: 1.5px solid white;
+    border-radius: 30px;
+}
+i:hover{
+    background-color: pink;
+}
