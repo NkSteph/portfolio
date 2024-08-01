@@ -4,28 +4,28 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-image:url(img/portfolio.jpg);
 }
+
 .navbar ul{
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+    float: right;
+    padding-top: 30px;
 }
 .navbar ul a{
-    font-size:17px;
-    color: white;
-    text-decoration: none;
-    padding: 25px;
-    text-align: center;
-    display: block;
+   text-decoration: none;
+   color: white;
+   padding: 50px;
+ 
 }
 .navbar ul li{
- display: inline-block;
+    display: inline-block;
 }
 
 .navbar a:hover{
-    border: 1px solid pink;
-    color: black;
-    background-color: pink;
+    text-decoration: underline;
+    padding: 5px;
+    margin: 5px;
+    color: pink;
+    transition: 0.5s;
 }
 
 button{
@@ -41,12 +41,17 @@ button{
 .button1{
     background-color: black;
     float: left;
-    color: pink;
     border: 2px solid pink;
+    text-decoration: none;
+}
+
+.button1 a{
+    text-decoration: none; 
+    color: white;
 }
 .button1:hover{
     background-color:pink; 
-        color: white;
+      color: white;
     border: white;
     }
 
@@ -57,7 +62,7 @@ button:hover{
 
 .logo{
     font-size: 40px;
-    float: left;
+    float: right;
     color: white;
 }
 .text{
@@ -68,9 +73,11 @@ button:hover{
 
  i{
     color: white;
-    padding: 20px;
+    padding: 10px;
     border: 1.5px solid white;
-    border-radius: 30px;
+    border-radius: 15px;
+    float: left;
+    margin: 5px;
 }
 i:hover{
     background-color: pink;
